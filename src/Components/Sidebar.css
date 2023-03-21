@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.sidebar{
+    font-family: 'Josefin Sans';
+    background-color: rgb(255, 205, 22);
+    width: 20%; 
+    height: 100%;
+    position:fixed!important;
+    z-index:1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    transform-origin: 0%;
+    filter: drop-shadow(5px 0 4px #000000);
+  }
+
+.sidebar-button{
+  margin-left: 20px;
+  
+}  
+  
+.collapse{
+  transform: translateX(-110%);
+  transition: 0.5s ease;
+}
+
+.toggle{
+  transform: translateX(0%);
+  transition: 0.5s ease;
+}
+
+.option{
+  margin:0 0;
+  padding: 20px 0 20px 20px;
+  font-size: 20px;
+  
+}
+  
+.option:hover{
+  background-color: black;
+  padding: 20px 0 20px 20px;
+  margin: 0 0;
+  color: white;
+  transition: background-color 0.5s ease
+}
+  
+.subtitle{
+  font-size: 200%;
+  font-weight: 500;
+  margin-left: 20px;
+  font-weight: 1000;
+}
+
+.closeButton{
+  background:none;
+}

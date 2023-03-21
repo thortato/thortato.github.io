@@ -1,0 +1,25 @@
+.intro{
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMmEyM2JkN2ItNmQ3NS00ZTkzLWEwMjYtZmU1YmJlODczZWM1XkEyXkFqcGdeQWFybm8@._V1_.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 350px;
+    font-size: 50px;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-works{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-color: antiquewhite;
+    text-align: center;
+}
