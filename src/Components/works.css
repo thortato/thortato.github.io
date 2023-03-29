@@ -1,0 +1,26 @@
+.works{
+    background-color: rgb(255, 205, 22);
+
+}
+
+.description{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.work-containers{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.work-card{
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}

@@ -1,25 +1,86 @@
-.intro{
+.header{
     background-image: url('https://m.media-amazon.com/images/M/MV5BMmEyM2JkN2ItNmQ3NS00ZTkzLWEwMjYtZmU1YmJlODczZWM1XkEyXkFqcGdeQWFybm8@._V1_.jpg');
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    color: white;
-    padding-top: 350px;
-    font-size: 50px;
+    background-position: top;
+    height: 100vh; 
 }
 
-.content-container{
-    display: flex;
-    flex-direction: column;
-}
-
-.content-works{
-    display: flex;
-    flex-direction: row;
+.container-content{
     height: 500px;
-    background-color: antiquewhite;
+    background-color: white;
     text-align: center;
+}
+
+.contact-me{
+    background-color: red;
+    height: 300px;
+}
+
+.title{
+    color: white;
+    font-size: 10vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+p{
+    color: white;
+    font-size: 4vh;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow{
+    color: white;
+    font-size: 5vh;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-new{
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    padding: 8px;
+    width:150px;
+
+}
+
+.about{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 600px;
+    width: 90%;
+    gap: 25px;
+    
+}
+
+.profile-picture{
+    background-image: url('/src/Assets/IMG20181221220909.jpg');
+    min-width: 500px;
+    height: 500px;
+    margin:auto auto auto 50px;
+    border-radius: 250px;
+
+}
+
+.profile-description{
+    font-size: 20px;
+    margin:auto auto auto 50px;
+
+}
+
+.work-container{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
 }
