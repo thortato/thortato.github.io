@@ -1,22 +1,28 @@
 import './App.css';
 import './Components/Content.css';
+import Sidebar from './Pages/Sidebar.js';
+import Home from './Pages/Home';
+import Footer from './Pages/Footer';
+import ScrolltoTop from './ScrolltoTop';
+import { Routes, Route} from 'react-router-dom';
+import {WorkAlterland} from './Pages/Works/Work_Alterland.js';
+import {WorkIntotheForest} from'./Pages/Works/Work_IntotheForest.js';
 
-import Sidebar from './Components/Sidebar.js';
-import Header from './Components/Content.js';
-import About from './Components/About.js';
-import Works from './Components/Works.js';
 
 function App() {
   return (
-    <div>
-      <Sidebar />
-      {/* <div className='content-container'> */}
-      <Header />
-      <About/>
-      <Works/>
-      {/* </div> */}
+    <>
+        <Sidebar />
+        <ScrolltoTop/>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='Alterland' element={<WorkAlterland/>} />
+          <Route path='IntotheForest' element={<WorkIntotheForest/>} />
+        </Routes>
+        <Footer/>
+        
       
-    </div>
+    </>
   );
 }
 

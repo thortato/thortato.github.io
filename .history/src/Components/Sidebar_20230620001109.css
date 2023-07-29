@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.sidebar{
+    font-family: 'Josefin Sans';
+    background-color: rgb(255, 205, 22);
+    width: 20%; 
+    height: 100%;
+    position:fixed!important;
+    z-index:5;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    transform-origin: 0%;
+    filter: drop-shadow(5px 0 15px #454545);
+    
+  
+  }
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; color: #000000; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+  
+.collapse{
+  transform: translateX(-110%);
+  transition: 0.5s ease;
+}
+
+.toggle{
+  transform: translateX(0%);
+  transition: 0.5s ease;
+}
+
+.option{
+  display: flex;
+  margin:0 0;
+  padding: 20px 0 20px 20px;
+  font-size: 20px;
+  gap: 8px;
+  align-items:center ;
+  
+}
+  
+.option:hover{
+  background-color: black;
+  padding: 20px 0 20px 20px;
+  margin: 0 0;
+  color: white;
+  transition: background-color 0.5s ease
+}
+  
+.subtitle{
+  font-size: 200%;
+  font-weight: 500;
+  margin-left: 20px;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.toggleButton{
+  background:none;
+  border: none;
+  color: antiquewhite;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: fixed;
+  
+}
+
+.closeButton{
+  background:none;
+  border: none;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.buttonALign{
+  bottom: 50px;
+}

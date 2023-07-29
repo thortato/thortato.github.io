@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans'); */
 
 .sidebar{
     font-family: 'Josefin Sans';
@@ -6,12 +6,12 @@
     width: 20%; 
     height: 100%;
     position:fixed!important;
-    z-index:1;
+    z-index:5;
     overflow: auto;
     display: flex;
     flex-direction: column;
     transform-origin: 0%;
-    filter: drop-shadow(5px 0 4px #a5a5a5);
+    filter: drop-shadow(5px 0 15px #454545);
     
   
   }
