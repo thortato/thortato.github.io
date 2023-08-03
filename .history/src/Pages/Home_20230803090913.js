@@ -1,0 +1,22 @@
+import '../App.css';
+import '../Components/Content.css';
+import Header from './Header';
+import About from './About';
+import Works from './Works';
+import ContactMe from './ContactMe';
+
+
+function Home() {
+  return (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+      <Header/>
+      <About/>
+      <Works/>
+      <ContactMe/>
+      </meta>
+    </>
+  );
+}
+
+export default Home;
