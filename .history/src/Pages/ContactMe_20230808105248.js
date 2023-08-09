@@ -1,0 +1,17 @@
+import '../Components/Content.css';
+// import ContactMeIllustration from './../Assets/Image/ContactMeIllustration.png';
+
+export default function ContactMe(){
+
+    return(
+    <div className='contactMeBG'>
+        <div className='contactMe'>
+            <h1>Interested in my works? Say hello to me here!</h1>
+            <button className='button-new'>Hello!</button>
+        </div>
+        
+    </div>
+    );
+        
+    
+};
